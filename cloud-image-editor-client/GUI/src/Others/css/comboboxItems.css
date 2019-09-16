@@ -1,0 +1,31 @@
+
+.combo-box-popup .list-view {
+    -fx-background-color: #616161;
+    -fx-border-color: #616161;
+    -fx-border-width: 0 0 0 0;
+    -fx-text-fill: WHITE;
+}
+
+.combo-box-popup {
+    -fx-background-color: #616161;
+    -fx-border-color: #616161;
+    -fx-border-width: 0 0 0 0;
+    -fx-text-fill: WHITE;
+}
+
+.combo-box-popup .list-view .jfx-list-cell {
+    -fx-background-color: #616161;
+    -fx-border-color: #616161;
+    -fx-border-width: 0 0 0 0;
+    -fx-background-insets: 0.0;
+    -fx-text-fill: WHITE;
+}
+
+.jfx-combo-box {
+    -fx-text-inner-color: WHITE;
+    -fx-prompt-text-fill: WHITE;
+}
+
+.jfx-combo-box .cell {
+    -fx-text-fill: WHITE;
+}

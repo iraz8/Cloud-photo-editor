@@ -1,0 +1,11 @@
+.separator {
+    -fx-background-color: #424242;
+    -fx-background-radius: 1px;
+}
+
+.separator *.line {
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-background-color: WHITE;
+    -fx-border-color: #616161;
+}

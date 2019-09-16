@@ -1,0 +1,24 @@
+.menu-item {
+    -fx-background-color: #424242;
+}
+
+.menu:hover,
+.menu:showing, /* selects Menu in MenuBar, if shown */
+.menu-item:focused {
+    -fx-background-color: #616161;
+
+}
+
+.menu-item .label {
+    -fx-text-fill: #eeeeee;
+
+}
+
+.context-menu {
+    -fx-background-color: #424242;
+
+}
+
+.menu-bar > .container > .menu-button > .label {
+    -fx-text-fill: #eeeeee;
+}

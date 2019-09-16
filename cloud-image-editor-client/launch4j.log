@@ -1,0 +1,28 @@
+
+
+Version:	3.12
+CmdLine:	C:\Workspace\cloud-image-editor-client\cloudPhotoEditor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Workspace\cloud-image-editor-client\.
+Java min ver:	1.000.000
+Java max ver:	
+Bundled JRE:	jre
+Check launcher:	C:\Workspace\cloud-image-editor-client\jre\bin\javaw.exe (OK)
+Launcher:	C:\Workspace\cloud-image-editor-client\jre\bin\javaw.exe
+Launcher args:	-jar "C:\Workspace\cloud-image-editor-client\cloudPhotoEditor.exe"
+Args length:	66/32768 chars
+Exit code:	259
+
+
+Version:	3.12
+CmdLine:	C:\Workspace\cloud-image-editor-client\cloudPhotoEditor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Workspace\cloud-image-editor-client\.
+Java min ver:	1.000.000
+Java max ver:	
+Bundled JRE:	jre
+Check launcher:	C:\Workspace\cloud-image-editor-client\jre\bin\javaw.exe (OK)
+Launcher:	C:\Workspace\cloud-image-editor-client\jre\bin\javaw.exe
+Launcher args:	-jar "C:\Workspace\cloud-image-editor-client\cloudPhotoEditor.exe"
+Args length:	66/32768 chars
+Exit code:	0

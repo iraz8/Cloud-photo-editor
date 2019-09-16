@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #303030;"
+            xmlns="http://javafx.com/javafx/8" fx:controller="LoginScreenController">
+    <children>
+        <GridPane layoutX="220.0" layoutY="8.0" prefHeight="277.0" prefWidth="340.0" AnchorPane.bottomAnchor="75.0"
+                  AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="50.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="200.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <JFXTextField fx:id="username" alignment="CENTER" focusColor="#3e50b4" maxHeight="25.0" maxWidth="200.0"
+                              minHeight="25.0" onAction="#usernameTextFieldClicked" prefHeight="25.0"
+                              promptText="Username"
+                              style="-fx-text-fill: #FFFFFF; -fx-background-color: #424242; -fx-prompt-text-fill: #929292;"
+                              GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                    <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0"/>
+                    </GridPane.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                    </padding>
+                </JFXTextField>
+                <JFXPasswordField fx:id="password" alignment="CENTER" focusColor="#3e50b4" maxHeight="25.0"
+                                  maxWidth="200.0" minHeight="25.0" onAction="#passwordFieldClicked" prefHeight="25.0"
+                                  promptText="Password"
+                                  style="-fx-text-fill: #FFFFFF; -fx-background-color: #424242; -fx-prompt-text-fill: #929292;"
+                                  GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                    <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0"/>
+                    </GridPane.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                    </padding>
+                </JFXPasswordField>
+                <JFXButton fx:id="login" defaultButton="true" graphicTextGap="5.0" maxHeight="25.0" maxWidth="125.0"
+                           minHeight="25.0" onAction="#loginButtonClicked" prefHeight="25.0" prefWidth="125.0"
+                           style="-fx-background-color: #3e50b4;" text="Login" textAlignment="JUSTIFY" textFill="WHITE"
+                           GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="TOP">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </JFXButton>
+                <JFXButton fx:id="forgotPassword" alignment="CENTER" contentDisplay="CENTER"
+                           onAction="#forgotPasswordButtonClicked" prefWidth="100.0" style="-fx-text-fill: #5264AE;"
+                           text="Forgot password?" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER"
+                           GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                    <font>
+                        <Font size="10.0"/>
+                    </font>
+                </JFXButton>
+                <ImageView cache="true" cacheHint="QUALITY" fitHeight="100.0" fitWidth="170.0" pickOnBounds="true"
+                           preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <GridPane.margin>
+                        <Insets/>
+                    </GridPane.margin>
+                    <image>
+                        <Image url="@images/logo_ico_small.png"/>
+                    </image>
+                </ImageView>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Cloud photo editor"
+                      textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1"
+                      GridPane.valignment="CENTER">
+                    <font>
+                        <Font size="26.0"/>
+                    </font>
+                </Text>
+                <JFXSpinner fx:id="spinner" disable="true" radius="10.0" startingAngle="0.0" visible="false"
+                            GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER"/>
+                <Text fx:id="infoText" fill="#d50000" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER"
+                      wrappingWidth="338.0" GridPane.halignment="CENTER" GridPane.rowIndex="4"
+                      GridPane.valignment="CENTER">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Text>
+            </children>
+        </GridPane>
+        <JFXButton fx:id="createAccount" contentDisplay="CENTER" maxHeight="25.0" maxWidth="100.0" minHeight="25.0"
+                   onAction="#createAccountButtonClicked" prefWidth="100.0" style="-fx-background-color: #616161;"
+                   text="Create account" textAlignment="JUSTIFY" textFill="WHITE" AnchorPane.bottomAnchor="30.0"
+                   AnchorPane.rightAnchor="30.0">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font size="10.0"/>
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="exitButton" alignment="CENTER" cancelButton="true" graphicTextGap="5.0" layoutX="557.0"
+                   layoutY="13.0" maxHeight="25.0" minHeight="25.0" onAction="#exitButtonClicked" prefHeight="25.0"
+                   prefWidth="100.0" style="-fx-background-color: #424242;" text="Exit" textAlignment="CENTER"
+                   textFill="WHITE" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <graphic>
+                <ImageView fitHeight="25.0" preserveRatio="true">
+                    <image>
+                        <Image url="@images/icons/ic_close_black_48dp.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+    </children>
+</AnchorPane>

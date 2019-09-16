@@ -1,0 +1,27 @@
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 75px;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #515151;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #323232;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: WHITE;
+    -fx-font-size: 12px;
+}
+
+.tab-pane .headers-region .tab .tab-container .tab-label {
+    -fx-text-fill: rgba(255, 255, 255, .7);
+    -fx-font-weight: BOLD;
+    -fx-padding: 0 0 0 0;
+}

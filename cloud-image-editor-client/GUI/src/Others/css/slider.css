@@ -1,0 +1,6 @@
+.slider *.axis { /* FX theme stylesheet */
+    -fx-border-color: null;
+    -fx-minor-tick-length: 5px;
+    -fx-tick-label-fill: derive(-fx-text-background-color, 100%);
+    -fx-tick-length: 10px;
+}
