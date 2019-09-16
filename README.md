@@ -1,2 +1,2 @@
 # Cloud-photo-editor
-Prezentarea proiectului poate fi gasite in fisierul Prezentare.pdf
+Prezentarea proiectului poate fi gasita in fisierul Prezentare.pdf
